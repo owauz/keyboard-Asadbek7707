@@ -1,0 +1,41 @@
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 736px;
+  margin: 0 auto;
+  margin-top: 58px;
+  .item {
+    display: flex;
+    align-items: center;
+    gap: 53px;
+    .item-select {
+      display: flex;
+      align-items: center;
+      gap: 18px;
+    }
+    .mode {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      .item {
+        display: flex;
+        align-items: center;
+        padding: 3px;
+        background: #757575;
+        border-radius: 10px;
+        width: 40px;
+        cursor: pointer;
+        &.end {
+          justify-content: end;
+        }
+        .circle {
+          width: 14px;
+          height: 14px;
+          border-radius: 100%;
+          background: white;
+        }
+      }
+    }
+  }
+}

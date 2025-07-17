@@ -1,0 +1,28 @@
+.item-line {
+  display: flex;
+  align-items: center;
+  padding: 24px;
+  max-width: 736px;
+  position: relative;
+  background: #f4f4f4;
+  margin: 0 auto;
+  margin-top: 51px;
+  border-radius: 16px;
+  input {
+    position: absolute;
+    height: 100%;
+    border: none;
+    width: 90%;
+    background: transparent;
+    outline: none;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 0px;
+  }
+  img {
+    position: absolute;
+    right: 24px;
+    z-index: 11;
+  }
+}
